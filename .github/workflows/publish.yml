@@ -1,0 +1,20 @@
+name: Publish installers
+on:
+  workflow_dispatch:
+  push:
+    paths: ['release.json']
+permissions:
+  contents: write
+concurrency:
+  group: publish-installers
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and publish installers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 publish.py
