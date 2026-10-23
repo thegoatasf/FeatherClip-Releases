@@ -1,0 +1,16 @@
+{
+  "version": "2.12.0",
+  "source_commit": "cc9c26708d3a3010e2f03551ec01d38151a6438e",
+  "artifacts": [
+    {
+      "file": "FeatherClip-Mac-AppleSilicon.dmg",
+      "url": "https://sdmntprsoutheastus3.oaiusercontent.com/files/00000000-b9ac-820c-a44e-989ec4dc10de/raw?se=2026-10-23T19%3A56%3A51Z&sp=r&sv=2026-02-06&sr=b&scid=2547a638-d2eb-4ebe-9423-c47ab529b519&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T06%3A27%3A18Z&ske=2026-10-24T06%3A27%3A18Z&sks=b&skv=2026-02-06&sig=LJJKt0aFA9pJuD18Lh%2BxWz1K/n8gI1oXweLt3OVnx5o%3D",
+      "sha256": "5535dc797ea40236b8d685bf11e3e0d5b1247ada1d0963ddde1646d623c11977"
+    },
+    {
+      "file": "FeatherClip-Windows-Setup.exe",
+      "url": "https://sdmntprcentralus.oaiusercontent.com/files/00000000-2970-81f5-b190-f75509d99f5b/raw?se=2026-10-23T19%3A56%3A54Z&sp=r&sv=2026-02-06&sr=b&scid=3d7673ed-b403-48ca-bb24-735ea9eba442&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T13%3A16%3A51Z&ske=2026-10-24T13%3A16%3A51Z&sks=b&skv=2026-02-06&sig=VUgnX951XZPO7R38Tmh8eoMm8x/9UWG0lyRdsXyUvEo%3D",
+      "sha256": "6a922e95d4ed58ae441a6349af29f3eb5c32806bae8923d6d0eaf980220791ad"
+    }
+  ]
+}
