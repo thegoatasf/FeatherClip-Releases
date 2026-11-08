@@ -1,11 +1,11 @@
-# Feather Clip 2.15.0
+# Feather Clip 2.16.0
 
-## Settings profiles
-Save named settings presets, load them later, replace a saved preset, or delete one. Windows: Settings > Profiles. Mac: Settings profiles in the sidebar. Presets are saved locally and do not change when you edit your current settings afterward. Loading capture settings can restart active recording and reset its unsaved buffer; saved clips are preserved.
+- Reduced motion-blur ghosting: native Windows and Mac capture keep the current frame dominant and reduce old-frame blending around sharp changes.
+- Windows blur runs in the GPU capture shader, avoiding the extra CPU video conversion. Compatibility capture uses a lighter 80/20 blend.
+- Added a bottom-left live readout such as `120 FPS - current: 119`, measured from encoder throughput and refreshed every second.
+- The counter expires during stalls and resets between recordings. Static Mac desktops may supply fewer frames.
+- Motion blur remains optional and capped at 120 FPS; blur off supports up to 240 FPS.
 
-## Pinned clips
-Use Pin clip / Unpin clip in the clip options menu (Windows) or right-click menu (Mac). Pinned clips stay at the top. Windows storage cleanup never automatically deletes them, and in-app renaming preserves their pin. Deleting a pinned clip yourself requires confirmation. If protected clips exceed the storage quota, they remain protected.
+Validation: native blur pixel/timing tests on Windows and Mac, Windows 1080p120 HDR/NVIDIA moving-source benchmark (45 seconds, average 120 FPS), settings/profile/pin checks, and installer/update handoff tests on both platforms.
 
-No account or server is needed. Sharing is unchanged.
-
-Both production builds and automated tests passed, including profile persistence and snapshot isolation, pin rename/cleanup protection, existing capture checks and automatic updater handoff. Interactive Mac use remains unverified on a physical Mac in this session; existing signing/notarization limitations remain.
+Windows installer and Apple Silicon macOS 15+ DMG are included. Existing clips and settings are preserved.

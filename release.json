@@ -1,16 +1,16 @@
 {
-  "version": "2.15.0",
-  "source_commit": "4aac534f7b0c5369eb3d48e4b9348165e8f88642",
+  "version": "2.16.0",
+  "source_commit": "913d4e26a43d1d90665872bc5ec05a3d9019303e",
   "artifacts": [
     {
       "file": "FeatherClip-Mac-AppleSilicon.dmg",
-      "url": "https://sdmntprsoutheastus3.oaiusercontent.com/files/00000000-b338-820c-8ab8-d7ab36bd225c/raw?se=2026-11-08T05%3A22%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=228ee91e-d614-4fea-86bd-5935152d40b9&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T15%3A03%3A11Z&ske=2026-11-08T15%3A03%3A11Z&sks=b&skv=2026-02-06&sig=dk03VUI8ILmbUR2RhqWWJzzs8vwvR7BjtsoDVXeHADM%3D",
-      "sha256": "b96f5bbaf3c2fb8d05e1b7e1a9e9bbc8cf3cd9b7bef50d854ce8b862af749797"
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-f2e4-8212-8069-422c9c6eac11/raw?se=2026-11-08T06%3A35%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=859b6b5b-e1e6-4ec7-a2c4-c322a49686f3&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T12%3A19%3A56Z&ske=2026-11-08T12%3A19%3A56Z&sks=b&skv=2026-02-06&sig=KKbl6L7uVPKGn9k6bSAcOVuC8BmM2kHIjiK4txWpIWI%3D",
+      "sha256": "5ab94ebcbfe78baea4082449156336ed48b1dc624c4e522e3fa530a9d742409b"
     },
     {
       "file": "FeatherClip-Windows-Setup.exe",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-6360-8212-9d27-19e8994fa9ec/raw?se=2026-11-08T05%3A22%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=f1d7642a-8436-4374-b5d9-9742ce1794ac&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T15%3A37%3A51Z&ske=2026-11-08T15%3A37%3A51Z&sks=b&skv=2026-02-06&sig=9eXpU7AvKoWX%2B8GQqxAFBPGuzzm1LojlPaGLEVSDWjE%3D",
-      "sha256": "2fb7dd1890377004e75e6bf364f4637e20c63eed436f91e26bf8c9ac8d820cdf"
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-e2e4-8212-97e2-b79a6c6ec63b/raw?se=2026-11-08T06%3A35%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=c3ee4852-2b83-4ba5-9f5c-696d1718bb01&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T22%3A25%3A14Z&ske=2026-11-08T22%3A25%3A14Z&sks=b&skv=2026-02-06&sig=TcYIdrlF0WzsXPfSQk9FZSX1%2BhuKADZy3Z1ChG6OKVU%3D",
+      "sha256": "8eec60f10c7aefe05c1543be26b6b65b1f27a54d491bede40b95b27ae66adc63"
     }
   ]
 }
