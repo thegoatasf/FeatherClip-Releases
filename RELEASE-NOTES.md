@@ -1,22 +1,12 @@
-## Feather Clip 2.13.1
+# Feather Clip 2.14.0
 
-- Check for updates immediately on each fresh app launch, with no 15-second delay.
-- Windows checks before recording startup; Mac checks continue after the initial window closes.
-- No repeated automatic checks when reopening a window in the same session.
-- Checks run asynchronously and stay quiet when up to date or offline. Downloading still requires your confirmation.
+- Smoother button press/release and hover effects on Windows and Mac, plus Windows panel fades. Reduced-motion preferences are respected.
+- Fixed a Windows capture catch-up loop that could repeatedly encode an old frame. Capture now reacquires fresh frames while catching up.
+- Brief encoder slowdowns no longer immediately trigger overload recovery. Saving while capture is substantially behind shows a clear catch-up message.
+- Windows keeps retrying after temporary capture failures instead of giving up after three attempts when automatic recovery is enabled. Mac now retries stream errors too. Stop clipping cancels recovery.
+- Capture helpers, encoder probes, thumbnails and exports are tied to the Windows app's lifetime, so FFmpeg is cleaned up when FeatherClip exits or is forcibly ended. Task Manager still controls its visual grouping; one combined usage row is not guaranteed.
+- Existing features, saved preferences, motion blur, up-to-240 FPS settings, and launch-time update checks remain available.
 
-Manual check: right-click the Windows tray icon > Check for updates. On Mac, use the Feather Clip app menu or menu-bar icon > Check for updates.
+Install with FeatherClip-Windows-Setup.exe or FeatherClip-Mac-AppleSilicon.dmg (Apple Silicon, macOS 15+). Existing installations can use Check for updates.
 
-### Included from 2.13.0
-
-- Optional two-frame motion blur on Windows and Mac, off by default.
-- Frame-rate settings up to 240 FPS; actual capture depends on your display and encoder.
-- New-user video bitrate defaults to 5,000 kbps; existing saved bitrate values are preserved.
-- Refreshed indigo/slate Windows panels and library header, plus a clearer Mac capture-status panel and Video settings group.
-- Existing capture, audio, library, editing, sharing and update controls are retained.
-
-Windows: Settings > Capture > Video. Mac: sidebar > Video; stop capture before editing video options. Motion blur adds processing and blends adjacent frames rather than estimating object motion.
-
-Install using the setup EXE or drag the Mac app from the DMG into Applications. Existing 2.12.0 apps can use Check for updates. Saved clips and settings are preserved.
-
-Preview installers remain unsigned/unnotarized. Automated tests do not guarantee 240 FPS performance on every device or verify live capture on the newest macOS.
+Both installer builds and automated checks passed. Windows live capture, forced encoder recovery, fresh-frame catch-up and helper cleanup were tested locally. Interactive Mac capture/reconnection has not been verified on a physical Mac in this session. Recovery may reset unsaved buffered footage; saved clips remain intact. Installers retain the existing signing/notarization limitations.
