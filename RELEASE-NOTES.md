@@ -1,16 +1,11 @@
-# Feather Clip 2.14.2
+# Feather Clip 2.15.0
 
-Choose Update and restart and FeatherClip now handles the handoff automatically:
+## Settings profiles
+Save named settings presets, load them later, replace a saved preset, or delete one. Windows: Settings > Profiles. Mac: Settings profiles in the sidebar. Presets are saved locally and do not change when you edit your current settings afterward. Loading capture settings can restart active recording and reset its unsaved buffer; saved clips are preserved.
 
-- Download and verify the release.
-- Finish active saves, trim exports and uploads, and preserve settings.
-- Close FeatherClip automatically.
-- Install the new version and reopen it.
+## Pinned clips
+Use Pin clip / Unpin clip in the clip options menu (Windows) or right-click menu (Mac). Pinned clips stay at the top. Windows storage cleanup never automatically deletes them, and in-app renaming preserves their pin. Deleting a pinned clip yourself requires confirmation. If protected clips exceed the storage quota, they remain protected.
 
-Windows shows installation progress and does not reboot the PC. Mac stages and replaces the installed app automatically instead of requiring DMG drag-and-drop, keeping the previous app as a hidden backup. Mac must be installed in a writable application folder, not running from a DMG.
+No account or server is needed. Sharing is unchanged.
 
-Saved clips and preferences are preserved. The unsaved rolling buffer resets when the app closes; it is not exported into extra clips. Automatic recovery remains opt-in, motion blur stays capped at 120 FPS, and blur-off retains up to 240 FPS.
-
-Both installer builds and automated checks passed, including Windows installation/relaunch and Mac DMG staging/bundle replacement. Mac interactive reopening/security prompts remain unverified on a physical Mac; existing signing/notarization limitations remain.
-
-Important: your currently installed older updater may need one final manual close/replacement to install 2.14.2. Future updates use the new automatic handoff.
+Both production builds and automated tests passed, including profile persistence and snapshot isolation, pin rename/cleanup protection, existing capture checks and automatic updater handoff. Interactive Mac use remains unverified on a physical Mac in this session; existing signing/notarization limitations remain.
