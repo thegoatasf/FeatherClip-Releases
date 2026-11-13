@@ -1,15 +1,12 @@
-# Feather Clip 2.17.0
+# Feather Clip 2.18.0
 
-Mac interaction and layout update:
-- Fixed-size button hit targets cover the full padded area; hover and press feedback no longer scales the target.
-- Controls accept window-activation clicks.
-- Clip rows use explicit single-click buttons across their full width.
-- Windows-style dark layout with a fixed Clips/Settings sidebar, recording card, clip library, and bottom-left live FPS display.
-- Video editing opens in a dedicated panel so playback and trim controls do not crowd the library at smaller window sizes.
-- Capture, audio, profiles, pins, trimming, sharing and updates remain available. Active exports prevent dismissing the editor.
+- Added an offline update log on Windows and Mac. It opens once per installed version and can be reopened from Settings > General > View update log.
+- Mac now accepts any whole-number frame rate from 5 to 240 FPS instead of a preset dropdown. Invalid drafts keep the last valid setting.
+- Motion blur now has a 0-100% strength slider on Windows and Mac, shown only when motion blur is enabled.
+- 0% is sharp, 36% preserves the subtle default, and 100% produces a strong two-frame blend with longer trails. Capture remains capped at 120 FPS with blur enabled.
+- Blur strength persists in settings and profiles. Older profiles keep the subtle default.
+- Future installer builds require a changelog entry for their version.
 
-Validation: native Mac window mouse-event tests passed at the button center and all four padded edges. Mac encoding, trimming, profiles/pins and automatic-update tests passed. Windows installer and update tests passed.
+Validated custom FPS limits, update-log display policy, native GPU 0%/100% blur output, old profile compatibility, settings persistence, Mac click targets, and installer/update handoff on both platforms.
 
-The friend's exact display/cursor setup has not been reproduced. Please retest the reported clicking issue after updating.
-
-Includes the Apple Silicon macOS 15+ DMG and Windows installer. Saved clips and settings are preserved.
+Includes Windows setup and Apple Silicon macOS 15+ DMG. Saved clips and settings are preserved.
