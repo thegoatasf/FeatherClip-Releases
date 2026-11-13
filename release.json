@@ -1,16 +1,16 @@
 {
-  "version": "2.16.0",
-  "source_commit": "913d4e26a43d1d90665872bc5ec05a3d9019303e",
+  "version": "2.17.0",
+  "source_commit": "7afebd5aaaf2e73d9a65f1288bbdef921edbf4f7",
   "artifacts": [
     {
-      "file": "FeatherClip-Mac-AppleSilicon.dmg",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-f2e4-8212-8069-422c9c6eac11/raw?se=2026-11-08T06%3A35%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=859b6b5b-e1e6-4ec7-a2c4-c322a49686f3&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T12%3A19%3A56Z&ske=2026-11-08T12%3A19%3A56Z&sks=b&skv=2026-02-06&sig=KKbl6L7uVPKGn9k6bSAcOVuC8BmM2kHIjiK4txWpIWI%3D",
-      "sha256": "5ab94ebcbfe78baea4082449156336ed48b1dc624c4e522e3fa530a9d742409b"
+      "file": "FeatherClip-Windows-Setup.exe",
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-0448-8212-836d-cc44039960a9/raw?se=2026-11-13T02%3A47%3A44Z&sp=r&sv=2026-06-06&sr=b&scid=adcea391-a2e6-469d-ae0e-3957fd7b2889&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-12T12%3A32%3A18Z&ske=2026-11-13T12%3A32%3A18Z&sks=b&skv=2026-06-06&sig=0eElM6pwW5/yXN4Z/z7%2Bl3dtgaWjXeyhRSXO8p9nm9A%3D",
+      "sha256": "ede2a18f4cc0c6fe051feefc4389098c7898ebe521efeabc8802ce30bdaf737d"
     },
     {
-      "file": "FeatherClip-Windows-Setup.exe",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-e2e4-8212-97e2-b79a6c6ec63b/raw?se=2026-11-08T06%3A35%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=c3ee4852-2b83-4ba5-9f5c-696d1718bb01&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-07T22%3A25%3A14Z&ske=2026-11-08T22%3A25%3A14Z&sks=b&skv=2026-02-06&sig=TcYIdrlF0WzsXPfSQk9FZSX1%2BhuKADZy3Z1ChG6OKVU%3D",
-      "sha256": "8eec60f10c7aefe05c1543be26b6b65b1f27a54d491bede40b95b27ae66adc63"
+      "file": "FeatherClip-Mac-AppleSilicon.dmg",
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-03c4-8212-ac9d-d896363ba418/raw?se=2026-11-13T02%3A47%3A41Z&sp=r&sv=2026-06-06&sr=b&scid=0c9d4105-7f55-45cc-ac93-3e059126a860&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-12T14%3A02%3A47Z&ske=2026-11-13T14%3A02%3A47Z&sks=b&skv=2026-06-06&sig=QFPlHcFrpTqtY2bn7qLtOf1cTHyaT8cu%2BITFZz495sU%3D",
+      "sha256": "8d535b32dba9824b8e07ca649d9a42a113b05e22f116d9882760b2feb205070b"
     }
   ]
 }

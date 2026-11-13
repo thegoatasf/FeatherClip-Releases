@@ -1,11 +1,15 @@
-# Feather Clip 2.16.0
+# Feather Clip 2.17.0
 
-- Reduced motion-blur ghosting: native Windows and Mac capture keep the current frame dominant and reduce old-frame blending around sharp changes.
-- Windows blur runs in the GPU capture shader, avoiding the extra CPU video conversion. Compatibility capture uses a lighter 80/20 blend.
-- Added a bottom-left live readout such as `120 FPS - current: 119`, measured from encoder throughput and refreshed every second.
-- The counter expires during stalls and resets between recordings. Static Mac desktops may supply fewer frames.
-- Motion blur remains optional and capped at 120 FPS; blur off supports up to 240 FPS.
+Mac interaction and layout update:
+- Fixed-size button hit targets cover the full padded area; hover and press feedback no longer scales the target.
+- Controls accept window-activation clicks.
+- Clip rows use explicit single-click buttons across their full width.
+- Windows-style dark layout with a fixed Clips/Settings sidebar, recording card, clip library, and bottom-left live FPS display.
+- Video editing opens in a dedicated panel so playback and trim controls do not crowd the library at smaller window sizes.
+- Capture, audio, profiles, pins, trimming, sharing and updates remain available. Active exports prevent dismissing the editor.
 
-Validation: native blur pixel/timing tests on Windows and Mac, Windows 1080p120 HDR/NVIDIA moving-source benchmark (45 seconds, average 120 FPS), settings/profile/pin checks, and installer/update handoff tests on both platforms.
+Validation: native Mac window mouse-event tests passed at the button center and all four padded edges. Mac encoding, trimming, profiles/pins and automatic-update tests passed. Windows installer and update tests passed.
 
-Windows installer and Apple Silicon macOS 15+ DMG are included. Existing clips and settings are preserved.
+The friend's exact display/cursor setup has not been reproduced. Please retest the reported clicking issue after updating.
+
+Includes the Apple Silicon macOS 15+ DMG and Windows installer. Saved clips and settings are preserved.
