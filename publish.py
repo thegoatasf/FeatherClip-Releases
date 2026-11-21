@@ -52,7 +52,7 @@ for artifact in artifacts:
 tag = "v" + version
 repo = "thegoatasf/FeatherClip-Releases"
 # Draft first: clients never see a release containing only one installer.
-subprocess.run(["gh", "release", "create", tag, "--repo", repo, "--draft", "--title", "Feather Clip " + version,
+subprocess.run(["gh", "release", "create", tag, "--repo", repo, "--draft", "--title", "Feather Clip " + manifest.get("display_version", version),
                 "--notes-file", "RELEASE-NOTES.md", *[str(output / name) for name in sorted(expected_names)],
                 str(output / "SHA256SUMS.txt")], check=True)
 subprocess.run(["gh", "release", "edit", tag, "--repo", repo, "--draft=false", "--latest"], check=True)
