@@ -8,7 +8,7 @@
 - Copy link uploads and copies automatically with inline status. Smaller uploads is now in Settings, and recent links copy again without reuploading.
 - Fresh FPS is now labeled Captured FPS on Windows.
 
-The displayed version remains Beta 1.0.1. This hotfix uses internal build 2.21.1 so existing installations can detect it. Existing versions check on launch but cannot be forced remotely to install.
+The displayed version remains Beta 1.0.1. This hotfix uses internal build 2.21.2 so existing installations can detect it. Existing versions check on launch but cannot be forced remotely to install.
 
 Both Windows and Mac Apple Silicon installers are included. Optional f0e Blur still requires one-time setup in the editor. Mac RIFE depends on physical GPU support; frame blending remains available with interpolation disabled.
 
