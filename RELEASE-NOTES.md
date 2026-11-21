@@ -1,12 +1,13 @@
-# Feather Clip 2.18.0
+## Feather Clip 2.19.0
 
-- Added an offline update log on Windows and Mac. It opens once per installed version and can be reopened from Settings > General > View update log.
-- Mac now accepts any whole-number frame rate from 5 to 240 FPS instead of a preset dropdown. Invalid drafts keep the last valid setting.
-- Motion blur now has a 0-100% strength slider on Windows and Mac, shown only when motion blur is enabled.
-- 0% is sharp, 36% preserves the subtle default, and 100% produces a strong two-frame blend with longer trails. Capture remains capped at 120 FPS with blur enabled.
-- Blur strength persists in settings and profiles. Older profiles keep the subtle default.
-- Future installer builds require a changelog entry for their version.
+- Grid/list clip library views on Windows and Mac; Mac now shows cached video thumbnails.
+- Optional motion blur in the editor: save a blurred copy at up to 60 FPS. Best with 120-240 FPS recordings. Preview remains the original; open the saved copy to preview or share the effect. Turn live blur off to avoid its capture-time processing.
+- Mac uses encoder-friendly YUV capture when live blur is off. Game-FPS improvement depends on hardware and needs real-device measurement.
+- Opening Feather Clip again on Windows reveals the existing tray app.
+- Windows pauses recording on lock, clears the unsaved buffer, and starts fresh after unlock if clipping was enabled. No clips are saved automatically.
+- New original clip-save sound, optional on both platforms.
+- SAVEDLY remains the sharing provider. Streamable and friends/DM features are not included.
 
-Validated custom FPS limits, update-log display policy, native GPU 0%/100% blur output, old profile compatibility, settings persistence, Mac click targets, and installer/update handoff on both platforms.
+Update from Settings > General > Check for updates, or use the tray/menu-bar update command. Saved clips and settings are preserved.
 
-Includes Windows setup and Apple Silicon macOS 15+ DMG. Saved clips and settings are preserved.
+Windows and Apple Silicon Mac installers remain unsigned/not notarized. Native build/export tests passed; physical Mac gaming performance and secure-desktop lock/unlock need real-device validation.
