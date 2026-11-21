@@ -1,18 +1,18 @@
 {
-  "version": "2.21.2",
+  "version": "2.21.3",
   "display_version": "Beta 1.0.1 Hotfix",
-  "source_commit": "4922095d66b5faa51891b959e441053b6d08b183",
+  "source_commit": "ca1a24f2981b0316c59d2fb902ba257c2442f50f",
   "prune_older_releases": true,
   "artifacts": [
     {
-      "file": "FeatherClip-Mac-AppleSilicon.dmg",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-f6a0-8212-98a2-7939bc98d5ff/raw?se=2026-11-21T04%3A12%3A24Z&sp=r&sv=2026-06-06&sr=b&scid=88c832b1-e376-4810-812c-5228baa68180&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A10%3A05Z&ske=2026-11-22T03%3A10%3A05Z&sks=b&skv=2026-06-06&sig=JjfuRg%2BhgglqX/KoIGSqVj142EdSvGs2jIFZlE1BNLg%3D",
-      "sha256": "ca91cf00bbdc4af2eb802265679674873a6be4e7f36e1f6897934e41d698687a"
+      "file": "FeatherClip-Windows-Setup.exe",
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-48e8-8212-9584-dd74ef96d1d4/raw?se=2026-11-21T04%3A46%3A31Z&sp=r&sv=2026-06-06&sr=b&scid=c0b23b87-1d3d-4e74-a09f-4077a7ce8a3b&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A04%3A32Z&ske=2026-11-22T03%3A04%3A32Z&sks=b&skv=2026-06-06&sig=0Hfh0pWIYQg%2BQ%2BHJfSitwBFcgmbhisMhWQblPmZRDJs%3D",
+      "sha256": "5939abf0bf6b8a382064a642624a5a8914ba50e5b2e8269710fcd3a3a607dc9d"
     },
     {
-      "file": "FeatherClip-Windows-Setup.exe",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-39b4-8212-a3c3-3d41c7c58658/raw?se=2026-11-21T04%3A12%3A26Z&sp=r&sv=2026-06-06&sr=b&scid=cba273de-9c66-4a8a-91eb-fef9cf912de4&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A04%3A32Z&ske=2026-11-22T03%3A04%3A32Z&sks=b&skv=2026-06-06&sig=wP1MvCj848kDhTXFwkWhrey1pCvg%2B0ktWcKQQbDAEF8%3D",
-      "sha256": "c645ac829c0f25fa9de291b70cb7f72b59e1ef6a4be891de4acfddd5d3a73217"
+      "file": "FeatherClip-Mac-AppleSilicon.dmg",
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-f2b4-8212-bcab-66a964809432/raw?se=2026-11-21T04%3A46%3A29Z&sp=r&sv=2026-06-06&sr=b&scid=75d1b1a6-3be6-4e6d-85cc-3b200ad39ad9&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A11%3A56Z&ske=2026-11-22T03%3A11%3A56Z&sks=b&skv=2026-06-06&sig=5sLoRBlQzZTCd03qmtv2P3wcC2tNKgTLDcczi/4AkeI%3D",
+      "sha256": "8600d4f30e84f98957a55e4b9fcfbcaf4d2bfadfab60840b135ad4343d9e7403"
     }
   ]
 }
