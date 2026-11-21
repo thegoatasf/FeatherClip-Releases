@@ -1,17 +1,18 @@
 {
-  "version": "2.20.0",
-  "display_version": "Beta 1.0",
-  "source_commit": "54e29d6246f4acfc12dda25b6d95accef032f327",
+  "version": "2.21.0",
+  "display_version": "Beta 1.0.1",
+  "source_commit": "e6874b480f2f0d65c8dce4a60ce3eed5c0940853",
+  "prune_older_releases": true,
   "artifacts": [
     {
-      "file": "FeatherClip-Windows-Setup.exe",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-c070-8212-a128-c59af99e6af8/raw?se=2026-11-21T02%3A42%3A56Z&sp=r&sv=2026-06-06&sr=b&scid=80ea6240-8d34-41bd-b239-945563ab743a&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-20T12%3A34%3A18Z&ske=2026-11-21T12%3A34%3A18Z&sks=b&skv=2026-06-06&sig=L1gAUzpf%2BN5dI5i/QXEoyoJt%2B3zVYQixzjqrh7v9HxM%3D",
-      "sha256": "be6985d6e142ee4e4c51786c6dd92da33ce2d0262350776c7a0cd25e7754958e"
+      "file": "FeatherClip-Mac-AppleSilicon.dmg",
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-a020-8212-92f0-c4d349946494/raw?se=2026-11-21T03%3A29%3A15Z&sp=r&sv=2026-06-06&sr=b&scid=7df67d73-db5e-40d4-b6c8-fce483dffa12&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A17%3A30Z&ske=2026-11-22T03%3A17%3A30Z&sks=b&skv=2026-06-06&sig=ss0OlvEW5B8r5YVpbMCqJiPr8jB8RB0Sh5tSsLII2mM%3D",
+      "sha256": "b36b25e1a615784553211ae743d87ec92afe62f6a4a93050565b88d8b784d9c3"
     },
     {
-      "file": "FeatherClip-Mac-AppleSilicon.dmg",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-3ac0-8212-89e9-dbdf304e1c3b/raw?se=2026-11-21T02%3A42%3A53Z&sp=r&sv=2026-06-06&sr=b&scid=e6927481-f8a5-4bb0-937c-ab34a299ffc5&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-20T04%3A04%3A30Z&ske=2026-11-21T04%3A04%3A30Z&sks=b&skv=2026-06-06&sig=HFHG3CF/kel7mslJsNp6uSrdDBXpyeXZG%2BCFtMMtnD0%3D",
-      "sha256": "7341453e21b96652ef66e3ad49fc1ba06a123585b2133573ebf5fc3396e5e179"
+      "file": "FeatherClip-Windows-Setup.exe",
+      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-09ec-8212-b47d-abe39cbbf87d/raw?se=2026-11-21T03%3A29%3A18Z&sp=r&sv=2026-06-06&sr=b&scid=86feac25-7d1e-4fe1-ad65-5f3a83066f3f&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-20T15%3A55%3A34Z&ske=2026-11-21T15%3A55%3A34Z&sks=b&skv=2026-06-06&sig=Gjj6aL9TAvYIZNN/oPayQi8dTS35JuEJF%2B0cxvTyDeg%3D",
+      "sha256": "52fbd7de9f89c9d21d6c4337fd06d83e4a8cb563b872c74231f80bc533baab46"
     }
   ]
 }

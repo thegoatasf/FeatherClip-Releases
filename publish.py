@@ -56,3 +56,23 @@ subprocess.run(["gh", "release", "create", tag, "--repo", repo, "--draft", "--ti
                 "--notes-file", "RELEASE-NOTES.md", *[str(output / name) for name in sorted(expected_names)],
                 str(output / "SHA256SUMS.txt")], check=True)
 subprocess.run(["gh", "release", "edit", tag, "--repo", repo, "--draft=false", "--latest"], check=True)
+
+# Explicit release-manifest opt-in: remove superseded public downloads only after
+# the new release is published and contains both installers plus checksums.
+if manifest.get("prune_older_releases") is True:
+    published = json.loads(subprocess.check_output(["gh", "api", f"repos/{repo}/releases/tags/{tag}"], text=True))
+    if published["draft"] or {a["name"] for a in published["assets"]} != expected_names | {"SHA256SUMS.txt"}:
+        raise ValueError("Refusing release cleanup before complete publication")
+    current_version = tuple(map(int, version.split(".")))
+    removed = []
+    while True:
+        releases = json.loads(subprocess.check_output(["gh", "api", f"repos/{repo}/releases?per_page=100"], text=True))
+        older = [r for r in releases if re.fullmatch(r"v[0-9]+\.[0-9]+\.[0-9]+", r["tag_name"]) and tuple(map(int, r["tag_name"][1:].split("."))) < current_version]
+        if not older:
+            break
+        for release in older:
+            subprocess.run(["gh", "api", "--method", "DELETE", f"repos/{repo}/releases/{release['id']}"], check=True)
+            subprocess.run(["gh", "api", "--method", "DELETE", f"repos/{repo}/git/refs/tags/{release['tag_name']}"], check=True)
+            removed.append(release["tag_name"])
+    print("Removed superseded public releases:", ", ".join(removed))
+
