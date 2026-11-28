@@ -1,18 +1,18 @@
 {
-  "version": "2.21.4",
-  "display_version": "Beta 1.0.1 Hotfix",
-  "source_commit": "9aea773888ad0d92d75a4ccfb62e4d2d2bf134aa",
-  "prune_older_releases": true,
+  "version": "2.21.5",
+  "display_version": "2.21.5",
+  "source_commit": "f2673b13a499059244af88c370bdc9c1bc33f873",
+  "prune_older_releases": false,
   "artifacts": [
     {
-      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1431467504/84cf2835-1295-4f50-aed6-7e18ddf3e0af?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-28T06%3A19%3A03Z&rscd=attachment%3B+filename%3Dwindows.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-28T05%3A18%3A56Z&ske=2026-11-28T06%3A19%3A03Z&sks=b&skv=2018-11-09&sig=3o4rMkZmYXCj4QEkUAcKTxzNONsAqknJOTMIWrfEvQU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTg0NTU0OSwibmJmIjoxNzk1ODQzNzQ5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1Akzzy22TeDBO8KlEYCVdPxti631Hdrf0h7JbdHDjQY&response-content-disposition=attachment%3B%20filename%3Dwindows.zip&response-content-type=application%2Foctet-stream",
-      "sha256": "080a8057dc2a33679b1ab1334812ab3ed01be8009fac5d837bf2d0ab4a9bf8a2",
-      "file": "FeatherClip-Windows-Setup.exe"
+      "file": "FeatherClip-Mac-AppleSilicon.dmg",
+      "sha256": "39e759946913e6f666207475285aaa6fc1352fcbe60713484c7ccc78440982ed",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1431467504/788728c5-ff06-4f3b-a5d7-d7a43cfbe843?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-28T07%3A01%3A28Z&rscd=attachment%3B+filename%3DFeatherClip-Mac-AppleSilicon.dmg.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-28T06%3A01%3A12Z&ske=2026-11-28T07%3A01%3A28Z&sks=b&skv=2018-11-09&sig=cOh3tjtj%2FNhRQQG8iRv7bCLoJkMJcKbrpWa1pNc2tns%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTg0NjU2NSwibmJmIjoxNzk1ODQ2MjY1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.SF1v65lUo8V9UCkfVu3WYqs_owFVIboD4jZwDxIlvUw&response-content-disposition=attachment%3B%20filename%3DFeatherClip-Mac-AppleSilicon.dmg.zip&response-content-type=application%2Foctet-stream"
     },
     {
-      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1431467504/d213862b-500e-4b83-a2ba-195cd85063d0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-28T06%3A14%3A50Z&rscd=attachment%3B+filename%3Dmac.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-28T05%3A14%3A12Z&ske=2026-11-28T06%3A14%3A50Z&sks=b&skv=2018-11-09&sig=hVlbfgqHIfWPcGDoRLIP5EaP5WCSnjtZyIVMwnmHN%2Fw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTg0Mzk2MSwibmJmIjoxNzk1ODQzNjYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.SZUT6C0gyWOdd5oXuJf_txqyxBCAdj80Om2QZ_SXsuI&response-content-disposition=attachment%3B%20filename%3Dmac.zip&response-content-type=application%2Foctet-stream",
-      "sha256": "9674fa158c62fd8cd14a6b35e48a864b188c2530068591c2c199051f2358b6a2",
-      "file": "FeatherClip-Mac-AppleSilicon.dmg"
+      "file": "FeatherClip-Windows-Setup.exe",
+      "sha256": "4b9c0f49d1d3a37ea6e0bb588447dedb147ee5377de3355f18022d2a0211ca91",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1431467504/2329db47-ff1c-4422-a92a-607dd2a781e0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-28T07%3A06%3A54Z&rscd=attachment%3B+filename%3DFeatherClip-Windows-Setup.exe.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-28T06%3A06%3A45Z&ske=2026-11-28T07%3A06%3A54Z&sks=b&skv=2018-11-09&sig=w0yewYNeimhovQEUqFH6J00heJx%2BWd1ekEvDm89oyi0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTg0ODA2NSwibmJmIjoxNzk1ODQ2MjY1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fa-FrFznU76jiICoR8PQDTvnRx-GYNU9bokz4g_4ZM4&response-content-disposition=attachment%3B%20filename%3DFeatherClip-Windows-Setup.exe.zip&response-content-type=application%2Foctet-stream"
     }
   ]
 }

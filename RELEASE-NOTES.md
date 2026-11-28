@@ -1,1 +1,1 @@
-Queue cuts in the editor and undo with Ctrl+Z on Windows or Command+Z on Mac. Preview the remaining footage, then save the edits together. Includes faster exports, upload size estimates and the new FeatherClip logo.
+Windows now offers launch at sign-in and uses the Feather Clip logo in the taskbar and upper-left header.
