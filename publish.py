@@ -21,7 +21,7 @@ output.mkdir(exist_ok=True)
 checksums = []
 for artifact in artifacts:
     url = urllib.parse.urlsplit(artifact["url"])
-    if url.scheme != "https" or not url.hostname or not url.hostname.endswith(".oaiusercontent.com") or url.username:
+    if url.scheme != "https" or not url.hostname or not (url.hostname.endswith(".oaiusercontent.com") or url.hostname == "release-assets.githubusercontent.com") or url.username:
         raise ValueError("Unexpected artifact download host")
     if not re.fullmatch(r"[0-9a-f]{64}", artifact["sha256"]):
         raise ValueError("Invalid artifact checksum")

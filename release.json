@@ -1,18 +1,18 @@
 {
-  "version": "2.21.3",
+  "version": "2.21.4",
   "display_version": "Beta 1.0.1 Hotfix",
-  "source_commit": "ca1a24f2981b0316c59d2fb902ba257c2442f50f",
+  "source_commit": "9aea773888ad0d92d75a4ccfb62e4d2d2bf134aa",
   "prune_older_releases": true,
   "artifacts": [
     {
-      "file": "FeatherClip-Windows-Setup.exe",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-48e8-8212-9584-dd74ef96d1d4/raw?se=2026-11-21T04%3A46%3A31Z&sp=r&sv=2026-06-06&sr=b&scid=c0b23b87-1d3d-4e74-a09f-4077a7ce8a3b&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A04%3A32Z&ske=2026-11-22T03%3A04%3A32Z&sks=b&skv=2026-06-06&sig=0Hfh0pWIYQg%2BQ%2BHJfSitwBFcgmbhisMhWQblPmZRDJs%3D",
-      "sha256": "5939abf0bf6b8a382064a642624a5a8914ba50e5b2e8269710fcd3a3a607dc9d"
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1431467504/84cf2835-1295-4f50-aed6-7e18ddf3e0af?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-28T06%3A19%3A03Z&rscd=attachment%3B+filename%3Dwindows.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-28T05%3A18%3A56Z&ske=2026-11-28T06%3A19%3A03Z&sks=b&skv=2018-11-09&sig=3o4rMkZmYXCj4QEkUAcKTxzNONsAqknJOTMIWrfEvQU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTg0NTU0OSwibmJmIjoxNzk1ODQzNzQ5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1Akzzy22TeDBO8KlEYCVdPxti631Hdrf0h7JbdHDjQY&response-content-disposition=attachment%3B%20filename%3Dwindows.zip&response-content-type=application%2Foctet-stream",
+      "sha256": "080a8057dc2a33679b1ab1334812ab3ed01be8009fac5d837bf2d0ab4a9bf8a2",
+      "file": "FeatherClip-Windows-Setup.exe"
     },
     {
-      "file": "FeatherClip-Mac-AppleSilicon.dmg",
-      "url": "https://sdmntpreastus3.oaiusercontent.com/files/00000000-f2b4-8212-bcab-66a964809432/raw?se=2026-11-21T04%3A46%3A29Z&sp=r&sv=2026-06-06&sr=b&scid=75d1b1a6-3be6-4e6d-85cc-3b200ad39ad9&skoid=434ec24f-a0f0-4e64-b0de-2e2053f69735&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-11-21T03%3A11%3A56Z&ske=2026-11-22T03%3A11%3A56Z&sks=b&skv=2026-06-06&sig=5sLoRBlQzZTCd03qmtv2P3wcC2tNKgTLDcczi/4AkeI%3D",
-      "sha256": "8600d4f30e84f98957a55e4b9fcfbcaf4d2bfadfab60840b135ad4343d9e7403"
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1431467504/d213862b-500e-4b83-a2ba-195cd85063d0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-28T06%3A14%3A50Z&rscd=attachment%3B+filename%3Dmac.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-28T05%3A14%3A12Z&ske=2026-11-28T06%3A14%3A50Z&sks=b&skv=2018-11-09&sig=hVlbfgqHIfWPcGDoRLIP5EaP5WCSnjtZyIVMwnmHN%2Fw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTg0Mzk2MSwibmJmIjoxNzk1ODQzNjYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.SZUT6C0gyWOdd5oXuJf_txqyxBCAdj80Om2QZ_SXsuI&response-content-disposition=attachment%3B%20filename%3Dmac.zip&response-content-type=application%2Foctet-stream",
+      "sha256": "9674fa158c62fd8cd14a6b35e48a864b188c2530068591c2c199051f2358b6a2",
+      "file": "FeatherClip-Mac-AppleSilicon.dmg"
     }
   ]
 }
